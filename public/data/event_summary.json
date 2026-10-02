@@ -1,0 +1,46 @@
+{
+  "demo_title": "CAT Property Intelligence \u2014 Calgary Hail Demonstrator",
+  "event": {
+    "location": "Calgary, Alberta, Canada",
+    "development_event": "2024 Calgary hail event",
+    "external_validation_event": "2025 Calgary hail event"
+  },
+  "2025_public_dataset": {
+    "modelled_buildings": 8211,
+    "unique_mrms_cells": 24,
+    "observed_public_zone_counts": {
+      "Minor": 4342,
+      "Threshold": 3869
+    }
+  },
+  "hazard_data": {
+    "source_family": "NOAA MRMS",
+    "sequence_length": 75,
+    "channels": [
+      "MESH",
+      "POSH",
+      "SHI",
+      "VIL",
+      "Composite Reflectivity",
+      "Precipitation Rate"
+    ]
+  },
+  "model_target": "Public NHP damage-zone severity at each residential-building location. This is not an individual insurance claim label.",
+  "insurance_demo": {
+    "portfolio_type": "Synthetic demonstration portfolio",
+    "real_insurer_data_used": false,
+    "claim_data_used": false,
+    "expected_loss_modelled": false
+  },
+  "production_extension": [
+    "Policy locations",
+    "Claim/no-claim outcomes",
+    "Paid and incurred losses",
+    "Coverage limits",
+    "Deductibles",
+    "Replacement cost",
+    "Roof and construction attributes",
+    "Historical catastrophe claims"
+  ],
+  "disclaimer": "Public-data research demonstrator. Synthetic insurance fields are included only to illustrate a potential insurer workflow. The model outputs must not be interpreted as claim probability or expected insured loss."
+}

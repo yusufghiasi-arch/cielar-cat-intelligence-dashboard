@@ -1,0 +1,38 @@
+[
+  {
+    "model": "XGBoost",
+    "evaluation": "2024 spatial OOF",
+    "n_samples": 35779,
+    "accuracy": 0.8523,
+    "balanced_accuracy": 0.8599,
+    "macro_f1": 0.8487,
+    "roc_auc": 0.9413
+  },
+  {
+    "model": "XGBoost",
+    "evaluation": "2025 external",
+    "n_samples": 8211,
+    "accuracy": 0.6654,
+    "balanced_accuracy": 0.6535,
+    "macro_f1": 0.6439,
+    "roc_auc": 0.6264
+  },
+  {
+    "model": "Transformer",
+    "evaluation": "2024 spatial OOF",
+    "n_samples": 35779,
+    "accuracy": 0.8519,
+    "balanced_accuracy": 0.8673,
+    "macro_f1": 0.8497,
+    "roc_auc": 0.924
+  },
+  {
+    "model": "Transformer",
+    "evaluation": "2025 external",
+    "n_samples": 8211,
+    "accuracy": 0.5515,
+    "balanced_accuracy": 0.5277,
+    "macro_f1": 0.4425,
+    "roc_auc": 0.6761
+  }
+]
